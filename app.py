@@ -69,4 +69,4 @@ def hello_world():
     
 
 if __name__ == '__main__':
-    app.run(debug=False,port='4444')
+    app.run(debug=True)
