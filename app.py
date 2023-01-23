@@ -45,8 +45,9 @@ def hello_world():
     result=ans.to_csv("static/files/result.csv",index=False)
 
 
-    email_sender = 'nandinigoel900@gmail.com'
-    email_password = 'xcuhprmnoegzdewf'
+    
+    email_sender = "YOUR_EMAIL"
+    email_password = "YOUR_PASSWORD"
 
 
     em = EmailMessage()
@@ -69,4 +70,4 @@ def hello_world():
     
 
 if __name__ == '__main__':
-    app.run(debug=True,port='5001')
+    app.run(debug=True)
